@@ -39,7 +39,7 @@ _<p align="center">Vintage Cassette Tape Audio Effects.</p>_
 
 ### 𝐒𝐭𝐚𝐧𝐝𝐚𝐥𝐨𝐧𝐞
 1. Download the latest [`My K7`](https://github.com/KouseiMusic/My-K7/releases/tag/My-K7-1.0.0).
-2. Install or drag `My K7` to your `Applications` folder.
+2. Install (.pkg) or drag (.app or .dmg) `My K7` to your `Applications` folder.
 3. Open `My K7`.
 4. Click on `Load` to start processing your samples.
 
