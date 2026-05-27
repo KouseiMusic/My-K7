@@ -10,6 +10,10 @@ _<p align="center">Vintage Cassette Tape Effects.</p>_
 
 ---
 
+<p align="center"><img width="695" height="639" alt="myk7preview" src="https://github.com/user-attachments/assets/a7c34a26-f845-4f83-8f6d-aa313dbc0eef" /></p>
+
+---
+
 ## 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬
 
 - **Dual Themes**: Switch between the highly crafted 'Doodle' and 'Kawaii' visual interfaces.
