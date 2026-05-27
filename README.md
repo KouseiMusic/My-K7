@@ -1,4 +1,4 @@
-<p align="center"><img width="300" height="223" alt="myk7banner" src="https://github.com/user-attachments/assets/cfbbbafb-709d-4349-b880-ac65ecb95d9a" /></p>
+<p align="center"><img width="280" height="192" alt="myk7banner" src="https://github.com/user-attachments/assets/fa391b9e-40fa-41bb-b266-2b6209a67bff" /></p>
 
 _<p align="center">Vintage Cassette Tape Effects.</p>_
 
