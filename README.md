@@ -12,7 +12,7 @@ _<p align="center">Vintage Cassette Tape Effects.</p>_
 
 ---
 
-<p align="center"><img width="695" height="639" alt="myk7preview" src="https://github.com/user-attachments/assets/a7c34a26-f845-4f83-8f6d-aa313dbc0eef" /></p>
+<p align="center"><img width="695" height="639" alt="myk7preview" src="https://github.com/user-attachments/assets/6acaf768-4964-4d72-b530-694dca1cd375" /></p>
 
 ---
 
