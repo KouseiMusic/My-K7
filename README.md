@@ -7,6 +7,8 @@ _<p align="center">Vintage Cassette Tape Effects.</p>_
 ![Version](https://img.shields.io/badge/Version-1.0.0-brightgreen?style=flat-square)
 ![macOS Support](https://img.shields.io/badge/macOS-Sonoma%20%7C%20Sequoia%20%7C%20Tahoe-000000?style=flat-square&logo=apple&logoColor=white)
 ![Architecture](https://img.shields.io/badge/Architecture-Intel%20%7C%20Arm64%20%7C%20U2B-black?labelColor=606060&style=flat-square&logo=apple&logoColor=white)
+![Format](https://img.shields.io/badge/Format-Standalone%20%7C%20AU%20%7C%20VST3-00CED1?style=flat-square)
+![DAW](https://img.shields.io/badge/DAW-Ableton%20Live%2012%2B-000000?style=flat-square&logo=abletonlive&logoColor=white)
 
 ---
 
@@ -16,14 +18,13 @@ _<p align="center">Vintage Cassette Tape Effects.</p>_
 
 ## 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬
 
-- **Dual Themes**: Switch between the highly crafted 'Doodle' and 'Kawaii' visual interfaces.
 - **Authentic Tape Simulation**: Add realistic tape instability with Wow and Flutter controls.
 - **Analog Saturation**: Dial in warm, asymmetrical saturation to recreate the harmonic richness of magnetic tape.
 - **Tape Failure**: Simulate random tape dropouts, degradation and age with the Failure parameter.
 - **13 Curated Presets**: Instantly recall classic tape machine characteristics (from pristine studio decks to broken portastudios).
-- **Live Output Recording**: Capture your live performances directly to disk.
-- **Interactive Spectrogram**: Visualize your audio in real-time.
-- **Standalone Desktop Application**: Built with Electron, offering low-latency processing on macOS.
+- **Live Output Recording**: Capture your recordings.
+- **Interactive Drawing Spectrogram**: Visualize your audio in real-time.
+- **Standalone Desktop Application**: Low-latency processing on macOS, no internet required, no browser required.
 
 ---
 
@@ -41,6 +42,12 @@ _<p align="center">Vintage Cassette Tape Effects.</p>_
 2. Install or drag `My K7` to your `Applications` folder.
 3. Open `My K7`.
 4. Click on `Load` to start processing your samples.
+
+### 𝐀𝐮𝐝𝐢𝐨 𝐔𝐧𝐢𝐭 (𝐀𝐔) 
+(𝐔𝐧𝐝𝐞𝐫 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭)
+
+### 𝐕𝐒𝐓𝟑 
+(𝐔𝐧𝐝𝐞𝐫 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭)
 
 ---
 
