@@ -81,6 +81,12 @@ _<p align="center">Vintage Cassette Tape Audio Effects.</p>_
 
 ---
 
+## 𝐂𝐫𝐞𝐝𝐢𝐭𝐬
+
+This software is developped in collaboration with [My Melody](https://github.com/My-Melodies).
+
+---
+
 _This software is free. Don't forget to give it a ⭐ on Github if you liked the project._
 
 ---
