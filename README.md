@@ -1,6 +1,6 @@
 <p align="center"><img width="157" height="65" alt="myk7bannersmall" src="https://github.com/user-attachments/assets/bdcebd18-44f5-4593-b591-79e30c1bd023" /></p>
 
-_<p align="center">Vintage Cassette Tape Audio Effects.</p>_
+**_<p align="center">Vintage Cassette Tape Audio Effects.</p>_**
 
 ---
 
