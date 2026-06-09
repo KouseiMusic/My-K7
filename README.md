@@ -31,7 +31,9 @@ _<p align="center">Vintage Cassette Tape Audio Effects.</p>_
 ## 𝐒𝐲𝐬𝐭𝐞𝐦 𝐑𝐞𝐪𝐮𝐢𝐫𝐞𝐦𝐞𝐧𝐭𝐬
 
 - **macOS**: 14.0 (Sonoma), 15.0 (Sequoia) or 16.0 (Tahoe).
-- **Architecture**: Intel, Arm64 (Silicon) & U2B (Universal).
+- **Architecture**: Intel (x64), Apple Silicon (Arm64) or Universal (U2B)
+- **DAW (plugin mode)**: Ableton Live 12 or 11, Logic Pro, Reason with the [BlackHole](https://github.com/ExistentialAudio/BlackHole) virtual audio driver for DAW routing in standalone mode.
+> AU and VST3 plugin formats are currently under development.
 
 ---
 
@@ -44,10 +46,10 @@ _<p align="center">Vintage Cassette Tape Audio Effects.</p>_
 4. Click on `Load`.
 
 ### 𝐀𝐮𝐝𝐢𝐨 𝐔𝐧𝐢𝐭 (𝐀𝐔) 
-(𝐔𝐧𝐝𝐞𝐫 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭)
+> 𝐔𝐧𝐝𝐞𝐫 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭
 
 ### 𝐕𝐒𝐓𝟑 
-(𝐔𝐧𝐝𝐞𝐫 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭)
+> 𝐔𝐧𝐝𝐞𝐫 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭
 
 ---
 
@@ -84,6 +86,14 @@ _<p align="center">Vintage Cassette Tape Audio Effects.</p>_
 ## 𝐂𝐫𝐞𝐝𝐢𝐭𝐬
 
 This software is developped in collaboration with [My Melody](https://github.com/My-Melodies).
+
+---
+
+## 𝐃𝐀𝐖 𝐔𝐬𝐚𝐠𝐞
+
+**Standalone + BlackHole**: Install the [`BlackHole`](https://github.com/ExistentialAudio/BlackHole) virtual audio driver, set `My K7` output to `BlackHole` in macOS `Audio MIDI Setup`, and route `BlackHole` as an input track in your DAW. This allows you to record the output in real time or resample it.
+
+**AU / VST3**: Plugin formats are under development. When available they will support full parameter automation and direct DAW audio routing without BlackHole.
 
 ---
 
