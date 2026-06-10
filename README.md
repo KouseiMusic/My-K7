@@ -21,7 +21,7 @@
 - **Authentic Tape Simulation**: Add realistic tape instability with Wow and Flutter controls.
 - **Analog Saturation**: Dial in warm, asymmetrical saturation to recreate the harmonic richness of magnetic tape.
 - **Tape Failure**: Simulate random tape dropouts, degradation and age with the Failure parameter.
-- **13 Curated Presets**: Instantly recall classic tape machine characteristics (from pristine studio decks to broken portastudios).
+- **16 Curated Presets**: Instantly recall classic tape machine characteristics (from pristine studio decks to broken portastudios).
 - **Live Output Recording**: Capture your recordings.
 - **Interactive Drawing Spectrogram**: Visualize your audio in real-time.
 - **Standalone Desktop Application**: Low-latency processing on macOS, no internet required, no browser required.
@@ -95,6 +95,86 @@ This software is developped in collaboration with [My Melody](https://github.com
 
 **Audio Unit (AU) & VST3**: Plugins formats are under development. When available they will support full parameter automation and direct DAW audio routing without BlackHole.
 
+---
+
+## 𝐒𝐢𝐠𝐧𝐚𝐥 𝐂𝐡𝐚𝐢𝐧
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│                        MY K7 — SIGNAL PATH                          │
+└─────────────────────────────────────────────────────────────────────┘
+
+    [Audio]
+       │
+       ├──────────────────────────────────────────┐
+       │  (wet path)                              │  (dry bypass)
+       ▼                                          │
+  ┌─────────┐   ┌─────────┐   ┌─────────┐         │
+  │   HPF   │──▶│   LPF   │──▶│  Peaking│         │
+  │(lo cut) │   │(hi cut) │   │   EQ    │         │
+  └─────────┘   └─────────┘   └─────────┘         │
+       │    ▲   Preset model fingerprint          │
+       │    └─── (HPF / LPF / PEQ per preset)     │
+       ▼                                          │
+  ┌──────────┐   ┌────────────┐                   │
+  │Waveshaper│──▶│ Bitcrusher │                   │
+  │(Saturate)│   │ (Worklet)  │                   │
+  └──────────┘   └────────────┘                   │
+       │          4× oversample                   │
+       ▼                                          │
+  ┌──────────────────────────────┐                │
+  │         Delay Line           │◀──┐            │
+  │   ┌──────────┐ ┌──────────┐  │   │            │
+  │   │  Wow LFO │ │Flutter   │  │   │            │
+  │   │  (0.5Hz) │ │LFO(15Hz) │  │   │            │
+  │   └────┬─────┘ └────┬─────┘  │   │            │
+  │        └────────────┘        │   │            │
+  │         delayTime mod        │   │            │
+  └──────────────────────────────┘   │            │
+       │                             │            │
+       ▼                             │            │
+  ┌──────────┐  ┌──────────┐         │            │
+  │ Flutter  │  │  Noise   │         │            │
+  │  Amp Mod │  │ (hiss +  │         │            │
+  │  (×gain) │  │  pops)   │         │            │
+  └────┬─────┘  └────┬─────┘         │            │
+       └─────────────┘               │            │
+               │                     │            │
+               ▼                     │            │
+         ┌──────────┐                │            │
+         │ Failure  │                │            │
+         │  Gain    │── (dropout     │            │
+         │          │    events) ────┘            │
+         └──────────┘                             │
+               │                                  │
+               ▼                                  │
+         ┌──────────┐                             │
+         │ Wet Vol  │◀── Volume × satAttenuation  │
+         └──────────┘                             │
+               │                                  │
+               ▼                                  │
+         ┌──────────┐   ┌──────────┐              │
+         │  Master  │◀──│ Dry Gain │◀─────────────┘
+         │   Gain   │   │ (bypass) │
+         └──────────┘   └──────────┘
+               │
+               ▼
+         ┌──────────┐
+         │ Limiter  │  threshold: −1 dBFS
+         │(20:1 BR) │  attack: 1 ms
+         └──────────┘  release: 100 ms
+               │
+               ▼
+         ┌──────────┐   ┌────────────┐
+         │  Output  │──▶│  Analyser  │──▶ [Spectrogram]
+         │   Gain   │   │  (FFT)     │
+         └──────────┘   └────────────┘
+               │
+               ▼
+        ┌────────────────────┐   
+        │ Audio Output / DAW │   
+        └────────────────────┘   
+```
 ---
 
 _This software is free. Don't forget to give it a ⭐ on Github if you liked the project._
