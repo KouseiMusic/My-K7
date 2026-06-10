@@ -24,11 +24,11 @@
 
 ### 𝐏𝐫𝐞𝐬𝐞𝐭𝐬
 
-- Recalibrated all 13 presets to prevent clipping and ear fatigue. Several presets were reaching levels that were too dense for comfortable monitoring, or contained EQ curves that did not accurately reflect the character of the hardware they were modelling. Tonal balances, noise levels, and effect intensities have all been individually reviewed and adjusted to preserve each machine's personality while keeping the output safe and controllable at normal listening volumes.
+- Recalibrated all 13 presets to prevent clipping and ear fatigue. Several presets were reaching levels that were too dense for comfortable monitoring, or contained EQ curves that did not accurately reflect the character of the hardware they were modelling. Tonal balances, noise levels and effect intensities have all been individually reviewed and adjusted to preserve each machine's personality while keeping the output safe and controllable at normal listening volumes.
 
 - Added three new hardware presets, bringing the total to 16:
 
-- 𝐄𝐥𝐜𝐚𝐬𝐞𝐭 𝐄𝐋-𝟕: Sony's short-lived large-cassette format from 1976, engineered to rival open-reel quality. This preset captures its unusually extended low end, wide frequency response, and near-silent transport, a sound that feels bigger than any cassette has a right to.
+- 𝐄𝐥𝐜𝐚𝐬𝐞𝐭 𝐄𝐋-𝟕: Sony's short-lived large-cassette format from 1976, engineered to rival open-reel quality. This preset captures its unusually extended low end, wide frequency response and near-silent transport; a sound that feels bigger than any cassette has a right to.
 
 - 𝐏𝐨𝐫𝐭𝐚𝐬𝐭𝐮𝐝𝐢𝐨 𝟐𝟒𝟒: The Tascam 4-track that defined bedroom recording in the 1980s. A narrow bandwidth, a honky presence in the upper mids, and an audible transport hiss that became the signature texture of lo-fi demos and home-recorded classics.
 
@@ -44,7 +44,7 @@
 
 ---
 
-## 𝟏.𝟎.𝟎 (𝟎𝟔-𝟐𝟎𝟐𝟔)
+## 𝟏.𝟎.𝟎 (𝟐𝟕-𝟎𝟓-𝟐𝟎𝟐𝟔)
 
 - Vintage cassette tape simulation with authentic Wow, Flutter, Saturation and Failure controls.
 
