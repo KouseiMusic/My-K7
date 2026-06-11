@@ -24,11 +24,11 @@
 
 ### 𝐏𝐫𝐞𝐬𝐞𝐭𝐬
 
-- Recalibrated all 13 presets to prevent clipping and ear fatigue. Several presets were reaching levels that were too dense for comfortable monitoring, or contained EQ curves that did not accurately reflect the character of the hardware they were modelling. Tonal balances, noise levels and effect intensities have all been individually reviewed and adjusted to preserve each machine's personality while keeping the output safe and controllable at normal listening volumes.
+- Recalibrated all 13 presets to prevent clipping and ear fatigue. Several presets were reaching levels that were too dense for comfortable monitoring, or contained EQ curves that did not accurately reflect the character of the hardware they were modelling. Tonal balances, noise levels, and effect intensities have all been individually reviewed and adjusted to preserve each machine's personality while keeping the output safe and controllable at normal listening volumes.
 
 - Added three new hardware presets, bringing the total to 16:
 
-- 𝐄𝐥𝐜𝐚𝐬𝐞𝐭 𝐄𝐋-𝟕: Sony's short-lived large-cassette format from 1976, engineered to rival open-reel quality. This preset captures its unusually extended low end, wide frequency response and near-silent transport; a sound that feels bigger than any cassette has a right to.
+- 𝐄𝐥𝐜𝐚𝐬𝐞𝐭 𝐄𝐋-𝟕: Sony's short-lived large-cassette format from 1976, engineered to rival open-reel quality. This preset captures its unusually extended low end, wide frequency response and near-silent transport — a sound that feels bigger than any cassette has a right to.
 
 - 𝐏𝐨𝐫𝐭𝐚𝐬𝐭𝐮𝐝𝐢𝐨 𝟐𝟒𝟒: The Tascam 4-track that defined bedroom recording in the 1980s. A narrow bandwidth, a honky presence in the upper mids, and an audible transport hiss that became the signature texture of lo-fi demos and home-recorded classics.
 
@@ -41,6 +41,8 @@
 - Removed an unnecessary third-party package (Express) that was included in the build by mistake. While unused by the application itself, its presence introduced known vulnerabilities. Its removal results in a cleaner, more secure installation.
 
 - Fixed the application making unnecessary network requests on startup. The interface was attempting to load fonts from an external server, causing silent failures on offline systems. All fonts are now handled locally, requiring no internet access and improving privacy.
+
+- Resolved 11 high-severity and 1 moderate-severity vulnerabilities in the build toolchain. The core runtime (Electron) and packaging tool (electron-builder) have been updated to their latest patched releases, clearing all known advisories including issues related to ASAR integrity, use-after-free callbacks, path traversal during extraction and service worker spoofing. None of these vulnerabilities were ever present in the installed application; they affected the build environment only. The audit report now returns zero issues.
 
 ---
 
@@ -58,4 +60,4 @@
 
 - Two visual themes: Kawaii and Doodle, switchable at any time without interrupting playback.
 
-- Native support for macOS Sonoma, Sequoia, and Tahoe (Intel x64, Apple Silicon arm64, Universal Binary).
+- Native support for macOS Sonoma, Sequoia and Tahoe (Intel x64, Apple Silicon arm64, Universal Binary).
