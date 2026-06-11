@@ -12,7 +12,7 @@
 
 ---
 
-<p align="center"><img width="695" height="639" alt="myk7preview" src="https://github.com/user-attachments/assets/6acaf768-4964-4d72-b530-694dca1cd375" /></p>
+<p align="center"><img width="711" height="652" alt="myk7preview" src="https://github.com/user-attachments/assets/05ef1d24-9456-4dd2-9259-da1362efefa2" /></p>
 
 ---
 
