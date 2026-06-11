@@ -28,11 +28,11 @@
 
 - Added three new hardware presets, bringing the total to 16:
 
-- 𝐄𝐥𝐜𝐚𝐬𝐞𝐭 𝐄𝐋-𝟕: Sony's short-lived large-cassette format from 1976, engineered to rival open-reel quality. This preset captures its unusually extended low end, wide frequency response and near-silent transport — a sound that feels bigger than any cassette has a right to.
+  - 𝐄𝐥𝐜𝐚𝐬𝐞𝐭 𝐄𝐋-𝟕: Sony's short-lived large-cassette format from 1976, engineered to rival open-reel quality. This preset captures its unusually extended low end, wide frequency response and near-silent transport, a sound that feels bigger than any cassette has a right to.
 
-- 𝐏𝐨𝐫𝐭𝐚𝐬𝐭𝐮𝐝𝐢𝐨 𝟐𝟒𝟒: The Tascam 4-track that defined bedroom recording in the 1980s. A narrow bandwidth, a honky presence in the upper mids, and an audible transport hiss that became the signature texture of lo-fi demos and home-recorded classics.
+  - 𝐏𝐨𝐫𝐭𝐚𝐬𝐭𝐮𝐝𝐢𝐨 𝟐𝟒𝟒: The Tascam 4-track that defined bedroom recording in the 1980s. A narrow bandwidth, a honky presence in the upper mids, and an audible transport hiss that became the signature texture of lo-fi demos and home-recorded classics.
 
-- 𝐓𝐂-𝐊𝟓𝟓𝟓: Sony's flagship three-head cassette deck from 1981, one of the quietest and most accurate consumer tape machines ever made. This preset captures its whisper-quiet noise floor, extended high-frequency reproduction and the subtle warmth that only a precision transport can deliver.
+  - 𝐓𝐂-𝐊𝟓𝟓𝟓: Sony's flagship three-head cassette deck from 1981, one of the quietest and most accurate consumer tape machines ever made. This preset captures its whisper-quiet noise floor, extended high-frequency reproduction and the subtle warmth that only a precision transport can deliver.
 
 ### 𝐒𝐞𝐜𝐮𝐫𝐢𝐭𝐲
 
