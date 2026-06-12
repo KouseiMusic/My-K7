@@ -40,7 +40,7 @@
 ## 𝐈𝐧𝐬𝐭𝐚𝐥𝐥𝐚𝐭𝐢𝐨𝐧
 
 ### 𝐒𝐭𝐚𝐧𝐝𝐚𝐥𝐨𝐧𝐞
-1. Download the latest [`My K7`](https://github.com/KouseiMusic/My-K7/releases/tag/My-K7-1.0.0).
+1. Download the latest [`My K7`](https://github.com/KouseiMusic/My-K7/releases/download/My_K7_1.1.0/My.K7.app.macOS.Universal.zip).
 2. Extract & Drag `My K7` to your `Applications` folder.
 3. Open `My K7`.
 4. Click on `Load`.
