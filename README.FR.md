@@ -18,28 +18,21 @@
 
 ## 𝐅𝐨𝐧𝐜𝐭𝐢𝐨𝐧𝐧𝐚𝐥𝐢𝐭é𝐬
 
-- Simulation de bande authentique : Ajoutez une instabilité de bande réaliste
-avec les contrôles Wow et Flutter.
-- Saturation Analogique : Ajustez une saturation asymétrique et chaleureuse
-pour recréer la richesse harmonique de la bande magnétique.
-- Tape Failure : Simulez les pertes de signal aléatoires, la dégradation et
-l'usure avec le paramètre Failure.
-- 16 Presets sélectionnés : Rappelez instantanément les caractéristiques de
-machines à bande classiques (des platines de studio haut de gamme aux
-portastudios cassés).
-- Enregistrement de la sortie en direct : Capturez vos enregistrements
-directement.
-- Spectrogramme interactif : Visualisez votre audio en temps réel.
-- Application Standalone : Traitement à faible latence sur macOS, sans besoin
-d'internet ni de navigateur.
+- **Authentique Simulation**: Ajoutez une instabilité de bande réaliste avec Wow et Flutter.
+- **Saturation Analogique**: Ajustez une saturation asymétrique et chaleureuse pour recréer la richesse harmonique de la bande magnétique.
+- **Tape Failure**: Simulez les pertes de signal aléatoires, la dégradation et l'usure avec Failure.
+- **16 Presets**: Rappelez instantanément les caractéristiques de machines à bande classiques (des platines de studio haut de gamme aux portastudios cassés).
+- **Enregistrement** : Capturez vos enregistrements directement.
+- **Spectrogramme interactif**: Visualisez votre audio en temps réel.
+- **Application Standalone**: Traitement à faible latence sur macOS, sans besoin d'internet ni de navigateur.
 
 ---
 
 ## 𝐂𝐨𝐧𝐟𝐢𝐠𝐮𝐫𝐚𝐭𝐢𝐨𝐧 𝐑𝐞𝐪𝐮𝐢𝐬𝐞
 
-- macOS : 14.0 (Sonoma), 15.0 (Sequoia) ou 16.0 (Tahoe).
-- Architecture : Intel (x64), Apple Silicon (Arm64) ou Universal (U2B).
-- DAW (mode Plugin) : Ableton Live 12 ou 11, Logic Pro, Reason avec le pilote
+- **macOS**: 14.0 (Sonoma), 15.0 (Sequoia) ou 16.0 (Tahoe).
+- **Architecture**: Intel (x64), Apple Silicon (Arm64) ou Universal (U2B).
+- **DAW (mode Plugin)**: Ableton Live 12 ou 11, Logic Pro, Reason avec le pilote
 audio virtuel [`BlackHole`](https://github.com/ExistentialAudio/BlackHole) pour le routage DAW en mode Standalone.
 
 > Les formats plugins Audio Unit (AU) & VST3 sont actuellement en cours de
@@ -68,18 +61,15 @@ développement.
 
 ## 𝐂𝐨𝐧𝐭𝐫ô𝐥𝐞𝐬
 
-- Traitement audio en temps réel : Chargez n'importe quel échantillon audio et
-appliquez des effets de cassette vintage à la volée.
-- Mécanismes de bande : Répliquez les incohérences du moteur et l'usure
-mécanique.
-- Dégradation magnétique : Façonnez l'équilibre tonal et introduisez une
-distorsion analogique.
+- **Traitement audio en temps réel**: Chargez n'importe quel échantillon audio et appliquez des effets de cassette vintage à la volée.
+- **Mécanismes de bande**: Répliquez les incohérences du moteur et l'usure mécanique.
+- **Dégradation magnétique**: Façonnez l'équilibre tonal et introduisez une distorsion analogique.
 
 ### 𝐂𝐚𝐫𝐚𝐜𝐭é𝐫𝐢𝐬𝐭𝐢𝐪𝐮𝐞𝐬 𝐝𝐞 𝐥𝐚 𝐛𝐚𝐧𝐝𝐞
 
 | Contrôle     | Description                                                                                                          | Plage   |
 | :----------- | :------------------------------------------------------------------------------------------------------------------- | :------ |
-| **Wow**      | Introduit une fluctuation de hauteur lente et aléatoire simulant les variations de vitesse du moteur.                | 0 à 100 |
+| **Wow**      | Introduit une fluctuation de fréquence lente et aléatoire simulant les variations de vitesse du moteur.                | 0 à 100 |
 | **Flutter**  | Ajoute une modulation de fréquence plus rapide simulant les imperfections du cabestan et du galet presseur.          | 0 à 100 |
 | **Saturate** | Pousse le signal dans une distorsion soft-clipping, imitant les niveaux d'enregistrement élevés.                     | 0 à 100 |
 | **Failure**  | Introduit des baisses de volume aléatoires, des pertes de hautes fréquences et des bruits typiques d'une bande usée. | 0 à 100 |
