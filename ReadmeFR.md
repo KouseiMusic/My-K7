@@ -42,7 +42,7 @@ d'internet ni de navigateur.
 - DAW (mode Plugin) : Ableton Live 12 ou 11, Logic Pro, Reason avec le pilote
 audio virtuel BlackHole pour le routage DAW en mode Standalone.
 
-Les formats plugins Audio Unit (AU) & VST3 sont actuellement en cours de
+> Les formats plugins Audio Unit (AU) & VST3 sont actuellement en cours de
 développement.
 
 ---
