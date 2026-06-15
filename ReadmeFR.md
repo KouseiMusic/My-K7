@@ -40,7 +40,7 @@ d'internet ni de navigateur.
 - macOS : 14.0 (Sonoma), 15.0 (Sequoia) ou 16.0 (Tahoe).
 - Architecture : Intel (x64), Apple Silicon (Arm64) ou Universal (U2B).
 - DAW (mode Plugin) : Ableton Live 12 ou 11, Logic Pro, Reason avec le pilote
-audio virtuel BlackHole pour le routage DAW en mode Standalone.
+audio virtuel [`BlackHole`](https://github.com/ExistentialAudio/BlackHole) pour le routage DAW en mode Standalone.
 
 > Les formats plugins Audio Unit (AU) & VST3 sont actuellement en cours de
 développement.
@@ -52,7 +52,7 @@ développement.
 ### 𝐒𝐭𝐚𝐧𝐝𝐚𝐥𝐨𝐧𝐞
 
 1.  Téléchargez la dernière version de [`My K7`](https://github.com/KouseiMusic/My-K7/releases/download/My_K7_1.1.0/My.K7.app.macOS.Universal.zip).
-2.  Extrayez et glissez `My K7` vers votre dossier `Applications`.
+2.  Dézippez et glissez `My K7` vers votre dossier `Applications`.
 3.  Ouvrez `My K7`.
 4.  Cliquez sur `Load`.
 
