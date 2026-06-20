@@ -20,6 +20,8 @@
 
 - **Authentic Tape Simulation**: Add realistic tape instability with Wow and Flutter controls.
 - **Analog Saturation**: Dial in warm, asymmetrical saturation to recreate the harmonic richness of magnetic tape.
+- **Ported Chase Bliss Generation Loss MKII**: <br> <img width="210" height="263" alt="genlossII" src="https://github.com/user-attachments/assets/bbe17167-9bb0-4cc7-8d57-38efd2b9cf58" />
+
 - **Tape Failure**: Simulate random tape dropouts, degradation and age with the Failure parameter.
 - **16 Curated Presets**: Instantly recall classic tape machine characteristics (from pristine studio decks to broken portastudios).
 - **Live Output Recording**: Capture your recordings.
@@ -177,7 +179,7 @@ This software is developped in collaboration with [My Melody](https://github.com
 ```
 ---
 
-_This software is free. Don't forget to give it a ⭐ on Github if you liked the project._
+_This software is free and not affiliated with Chase Bliss. Don't forget to give it a ⭐ on Github if you liked the project._
 
 ---
 
