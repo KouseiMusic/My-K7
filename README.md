@@ -20,7 +20,7 @@
 
 - **Authentic Tape Simulation**: Add realistic tape instability with Wow and Flutter controls.
 - **Analog Saturation**: Dial in warm, asymmetrical saturation to recreate the harmonic richness of magnetic tape.
-- **Ported [Generation Loss MKII](https://www.chasebliss.com/generation-loss-mkii) from Chase Bliss**: <br> <img width="150" height="188" alt="genlossII" src="https://github.com/user-attachments/assets/6b0063c1-653d-4d5d-8ec3-961fcb03b3f9" />
+- **Port of the [Generation Loss MKII](https://www.chasebliss.com/generation-loss-mkii) from Chase Bliss**: <br> <img width="150" height="188" alt="genlossII" src="https://github.com/user-attachments/assets/6b0063c1-653d-4d5d-8ec3-961fcb03b3f9" />
 
 
 - **Tape Failure**: Simulate random tape dropouts, degradation and age with the Failure parameter.
